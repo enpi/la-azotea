@@ -35,10 +35,10 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            href="#reservas"
+            href="#menu"
             className="inline-block bg-amber-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-amber-700 transition-colors"
           >
-            Reserva ahora
+            Consulta nuestra carta
           </motion.a>
         </div>
       </div>
