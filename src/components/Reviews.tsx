@@ -5,24 +5,24 @@ import { motion } from 'framer-motion';
 const reviews = [
   {
     id: 1,
-    name: "María García",
+    name: "Juan Pérez",
     rating: 5,
-    comment: "¡Increíble experiencia! Las vistas son espectaculares y la comida deliciosa. El servicio fue excepcional.",
-    date: "Hace 2 semanas"
+    comment: "Excelente lugar para disfrutar de una buena cerveza artesanal. El ambiente es acogedor y el personal muy amable. ¡Repetiré sin duda!",
+    date: "Hace 1 semana"
   },
   {
     id: 2,
-    name: "Carlos Rodríguez",
-    rating: 5,
-    comment: "Uno de los mejores restaurantes de la ciudad. El solomillo estaba perfecto y el ambiente es muy acogedor.",
-    date: "Hace 1 mes"
+    name: "Laura Gómez",
+    rating: 4,
+    comment: "Buena selección de cervezas y tapas deliciosas. La terraza ofrece vistas agradables al paseo marítimo.",
+    date: "Hace 2 semanas"
   },
   {
     id: 3,
-    name: "Ana Martínez",
-    rating: 4,
-    comment: "Excelente lugar para una cena romántica. La terraza tiene unas vistas increíbles de la ciudad.",
-    date: "Hace 1 mes"
+    name: "Miguel Torres",
+    rating: 5,
+    comment: "Un sitio imprescindible en El Morche. Gran variedad de cervezas y ambiente inmejorable.",
+    date: "Hace 3 semanas"
   }
 ];
 
@@ -39,8 +39,7 @@ const containerVariants = {
 const reviewVariants = {
   hidden: { opacity: 0, y: 20 },
   visible: {
-    opacity: 1,
-    y: 0,
+    opacity: 1, y: 0,
     transition: {
       duration: 0.5
     }

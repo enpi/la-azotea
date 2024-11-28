@@ -16,7 +16,6 @@ export function Navbar() {
             <div className="ml-10 flex items-center space-x-8">
               <a href="#inicio" className="text-gray-700 hover:text-amber-600">Inicio</a>
               <a href="#menu" className="text-gray-700 hover:text-amber-600">Menú</a>
-              <a href="#reservas" className="text-gray-700 hover:text-amber-600">Reservas</a>
               <a href="#contacto" className="text-gray-700 hover:text-amber-600">Contacto</a>
             </div>
           </div>
@@ -34,7 +33,6 @@ export function Navbar() {
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a href="#inicio" className="block px-3 py-2 text-gray-700 hover:text-amber-600">Inicio</a>
             <a href="#menu" className="block px-3 py-2 text-gray-700 hover:text-amber-600">Menú</a>
-            <a href="#reservas" className="block px-3 py-2 text-gray-700 hover:text-amber-600">Reservas</a>
             <a href="#contacto" className="block px-3 py-2 text-gray-700 hover:text-amber-600">Contacto</a>
           </div>
         </div>

@@ -11,29 +11,36 @@ export function Contact() {
           <div className="text-center">
             <MapPin className="w-8 h-8 text-amber-600 mx-auto mb-4" />
             <h3 className="text-xl font-semibold mb-2">Dirección</h3>
-            <p className="text-gray-600">Calle Principal 123<br />28001 Madrid</p>
+            <p className="text-gray-600">
+              P.º Marítimo el Morche, 5<br />
+              29793 El Morche, Málaga
+            </p>
           </div>
           
           <div className="text-center">
             <Phone className="w-8 h-8 text-amber-600 mx-auto mb-4" />
             <h3 className="text-xl font-semibold mb-2">Teléfono</h3>
-            <p className="text-gray-600">+34 912 345 678</p>
+            <p className="text-gray-600">621 28 11 72</p>
           </div>
           
           <div className="text-center">
             <Clock className="w-8 h-8 text-amber-600 mx-auto mb-4" />
             <h3 className="text-xl font-semibold mb-2">Horario</h3>
             <p className="text-gray-600">
-              Martes - Domingo<br />
-              13:00 - 16:00<br />
-              20:00 - 23:30
+              <strong>Jueves:</strong> 8:00–24:00<br />
+              <strong>Viernes:</strong> 8:00–24:00<br />
+              <strong>Sábado:</strong> 8:00–24:00<br />
+              <strong>Domingo:</strong> 8:00–24:00<br />
+              <strong>Lunes:</strong> Cerrado<br />
+              <strong>Martes:</strong> 8:00–24:00<br />
+              <strong>Miércoles:</strong> 8:00–24:00
             </p>
           </div>
         </div>
         
         <div className="mt-16">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.7479999084936!2d-3.7037974846361633!3d40.41694076440221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422997800a3c81%3A0xc436dec1618c2269!2sMadrid%2C%20Spain!5e0!3m2!1sen!2s!4v1647081144050!5m2!1sen!2s"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3192.407296179855!2d-4.008516125140557!3d36.727666724464374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd721260ae598f23%3A0x3de79956b1e11cfd!2sPaseo%20Mar%C3%ADtimo%20el%20Morche%2C%205%2C%2029793%20El%20Morche%2C%20M%C3%A1laga%2C%20Spain!5e0!3m2!1sen!2ses!4v1633510282167!5m2!1sen!2ses"
             width="100%"
             height="400"
             style={{ border: 0 }}
