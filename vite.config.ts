@@ -6,5 +6,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: '/la-azotea/', // Replace with your repository name
+  base: '/la-azotea/',
 });
